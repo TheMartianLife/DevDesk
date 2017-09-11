@@ -104,6 +104,7 @@ public class SlideDeck {
                 timeslotStrings.append(String(describing: hour) + ":" + String(describing: minutes))
             }
             timesArray.append(timeslotStrings)
+            timeslotStrings.removeAll()
         }
 
         return timesArray
