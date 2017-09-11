@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41B4B6281F4E5E4B00D3C2F7 /* desk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B4B6281F4E5E4B00D3C2F7 /* devdesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devdesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B4B62B1F4E5E4B00D3C2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41B4B62D1F4E5E4B00D3C2F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41B4B6301F4E5E4B00D3C2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		41B4B6291F4E5E4B00D3C2F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41B4B6281F4E5E4B00D3C2F7 /* desk.app */,
+				41B4B6281F4E5E4B00D3C2F7 /* devdesk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41B4B6271F4E5E4B00D3C2F7 /* desk */ = {
+		41B4B6271F4E5E4B00D3C2F7 /* devdesk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41B4B63A1F4E5E4B00D3C2F7 /* Build configuration list for PBXNativeTarget "desk" */;
+			buildConfigurationList = 41B4B63A1F4E5E4B00D3C2F7 /* Build configuration list for PBXNativeTarget "devdesk" */;
 			buildPhases = (
 				41B4B6241F4E5E4B00D3C2F7 /* Sources */,
 				41B4B6251F4E5E4B00D3C2F7 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = desk;
+			name = devdesk;
 			productName = desk;
-			productReference = 41B4B6281F4E5E4B00D3C2F7 /* desk.app */;
+			productReference = 41B4B6281F4E5E4B00D3C2F7 /* devdesk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 41B4B6231F4E5E4A00D3C2F7 /* Build configuration list for PBXProject "desk" */;
+			buildConfigurationList = 41B4B6231F4E5E4A00D3C2F7 /* Build configuration list for PBXProject "devdesk" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41B4B6271F4E5E4B00D3C2F7 /* desk */,
+				41B4B6271F4E5E4B00D3C2F7 /* devdesk */,
 			);
 		};
 /* End PBXProject section */
@@ -283,7 +283,7 @@
 				DEVELOPMENT_TEAM = WWM8ZC54SY;
 				INFOPLIST_FILE = desk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.desk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.devdesk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -297,7 +297,7 @@
 				DEVELOPMENT_TEAM = WWM8ZC54SY;
 				INFOPLIST_FILE = desk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.desk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.devdesk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -307,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41B4B6231F4E5E4A00D3C2F7 /* Build configuration list for PBXProject "desk" */ = {
+		41B4B6231F4E5E4A00D3C2F7 /* Build configuration list for PBXProject "devdesk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41B4B6381F4E5E4B00D3C2F7 /* Debug */,
@@ -316,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41B4B63A1F4E5E4B00D3C2F7 /* Build configuration list for PBXNativeTarget "desk" */ = {
+		41B4B63A1F4E5E4B00D3C2F7 /* Build configuration list for PBXNativeTarget "devdesk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41B4B63B1F4E5E4B00D3C2F7 /* Debug */,
